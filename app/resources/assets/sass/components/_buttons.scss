@@ -1,0 +1,49 @@
+.button-group {
+  margin: 47px 0 51px 0;
+
+  .btn {
+    width: 186px;
+    padding: 17px 0 18px 0;
+    border-radius: 3px;
+    color: $white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 17px;
+    text-shadow: 0 1px 1px 0 rgba(0,0,0,0.2);
+    border: 0;
+    outline: none;
+    cursor: pointer;
+  }
+
+  .btn-primary {
+    margin-right: 15px;
+    background: linear-gradient(186.34deg, $koromiko 0%, $coral 100%);
+
+    &:hover, &:focus, &:active {
+      outline: none;
+      transition: all 0.3s ease-in-out;
+      background: linear-gradient(186.34deg, $lemon 0, $flamenco 100%)
+    }
+  }
+
+  .btn-secondary {
+    background-color: rgba(255,255,255,0.15);
+    transition: all 0.3s ease-in-out;
+
+    &:hover, &:focus, &:active {
+      background-color: rgba(255,255,255,0.25);
+      transition: all 0.3s ease-in-out;
+    }
+
+    &::after {
+      display: inline-block;
+      content: ' ';
+      background-image: url('../svg/icons/ic_client-area.svg');
+      height: 12px;
+      width: 8px;
+      margin-left: 10.5px;
+    }
+  }
+}

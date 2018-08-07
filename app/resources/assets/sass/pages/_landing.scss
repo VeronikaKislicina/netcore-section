@@ -1,0 +1,136 @@
+.background {
+  background-image: url('../img/background_image-1.png');
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+  margin: -95px 0 0 0;
+  padding: 0;
+  z-index: -1;
+  position: absolute;
+}
+
+.solid-overlay {
+  background-color: #14151A;
+  height: 800px;
+  width: 100%;
+  opacity: 0.8;
+  z-index: -1;
+  position: absolute;
+}
+
+.gradient {
+  background: linear-gradient(180deg, rgba(46,47,55,0) 0%, #14151A 100%);
+  opacity: 0.8;
+  height: 800px;
+  z-index: -1;
+  position: absolute;
+}
+
+.noise {
+  background: $woodsmoke;
+  opacity: 0.8;
+  height: 800px;
+  z-index: -1;
+  position: absolute;
+}
+
+.container {
+  padding: 0;
+
+  .content {
+    display: flex;
+    flex-direction: column;
+
+
+    h2 {
+      align-items: center;
+      justify-content: center;
+      padding-top: 280px;
+      color: $white;
+      font-size: 40px;
+      font-weight: 300;
+      line-height: 56px;
+      margin: 0;
+
+      span {
+        background: -webkit-linear-gradient(186.34deg, $koromiko 0%, $coral 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: bold;
+      }
+    }
+
+
+    .middle-block {
+      display: flex;
+      justify-content: space-between;
+      margin: 14px 0 0 0;
+
+      p {
+        margin: 0;
+        opacity: 0.8;
+        color: $white;
+        font-size: 18px;
+        line-height: 30px;
+      }
+
+      .mouse {
+        border: 2px solid $white;
+        opacity: 0.3;
+        border-radius: 16px;
+        height: 40px;
+        cursor: pointer;
+
+        &:hover {
+          opacity: 0.5;
+          transition: all 0.3s ease-in-out;
+        }
+
+        .dot {
+          margin: 10px 8px 26px 8px;
+          height: 4px;
+          width: 4px;
+          background-color: $white;
+          border-radius: 50%;
+        }
+      }
+    }
+
+    .button-group {
+      margin: 47px 0 51px 0;
+    }
+
+    .help {
+      color: $white;
+      opacity: 0.5;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 17px;
+      margin: 0 0 2px 0;
+
+      &:hover {
+        color: $flamenco;
+        transition: all 0.3s ease-in-out;
+        text-decoration: none;
+        opacity: 1;
+      }
+
+      &::after {
+        display: inline-block;
+        content: ' ';
+        background-image: url('../svg/icons/ic_custom-arrow-down.svg');
+        height: 12px;
+        width: 8px;
+        margin-left: 8px;
+      }
+    }
+
+    .dotted-line {
+      width: 227px;
+      border: 1px dotted $white;
+      opacity: 0.2;
+    }
+  }
+}

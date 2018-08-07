@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="8px" height="12px" viewBox="0 0 8 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>4DD3D1E5-322E-42D1-A45E-6E5B6C5B3585</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage" transform="translate(-714.000000, -533.000000)" fill="#FFFFFF">
+            <g id="Header">
+                <g id="Header-content" transform="translate(375.000000, 280.000000)">
+                    <g id="Button-transparent" transform="translate(201.000000, 233.000000)">
+                        <path d="M145,25 C145.552285,25 146,25.4477153 146,26 L146,31 C146,31.5522847 145.552285,32 145,32 L139,32 C138.447715,32 138,31.5522847 138,31 L138,26 C138,25.4477153 138.447715,25 139,25 L139,23 C139,21.3431458 140.343146,20 142,20 C143.656854,20 145,21.3431458 145,23 L145,25 Z M142,29 C142.552285,29 143,28.5522847 143,28 C143,27.4477153 142.552285,27 142,27 C141.447715,27 141,27.4477153 141,28 C141,28.5522847 141.447715,29 142,29 Z M144,25 L144,23 C144,21.8954305 143.104569,21 142,21 C140.895431,21 140,21.8954305 140,23 L140,25 L144,25 Z" id="ic_client-area"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

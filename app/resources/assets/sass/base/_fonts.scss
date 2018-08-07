@@ -1,0 +1,26 @@
+// define the fonts to include
+$fonts: (
+	 'Dinpro': ('dinpro', (
+	 	'DINPro' 400 normal,
+	 	'DINPro-Black' 900 normal,
+	 	'DINPro-Bold' 700 normal,
+	 	'DINPro-Light' 300 normal,
+	 	'DINPro-Medium' 500 normal
+	 ))
+);
+;
+
+// include font faces
+@each $name, $src in $fonts {
+	$directory: nth($src, 1);
+	$locals: nth($src, 2);
+
+	@each $local in $locals {
+		$weight: nth($local, 2);
+		$style: nth($local, 3);
+		$local: nth($local, 1);
+		$path: $directory + '/' + $local;
+
+		@include font-face($name, $local, $path, $weight, $style);
+	}
+}
